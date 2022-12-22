@@ -1,0 +1,8 @@
+r 7
+f insertall.txt
+l 
+f testall.txt
+# following should error
+s 1 8
+s 8 1
+s 8 9

@@ -1,0 +1,5 @@
+# this file invokes input1.txt
+# which invokes this file causing a potential 
+# infinite recursive loop
+l 
+f input1.txt

@@ -1,0 +1,26 @@
+# empty
+l
+# file/insert command test
+f insertall.txt
+l
+# the following should create errors
+i 1 2
+i 11 4
+i 2 11
+i 12 14
+# delete tests
+# the following should create errors
+d 2 1
+d 11 4
+d 2 11
+d 11 12
+# following should get rid of all connections
+f deleteall.txt
+l
+# resize command test
+# An Archipelago with 7 islands
+r 7
+f insertall.txt
+l
+# file recursion test
+f input6.txt
